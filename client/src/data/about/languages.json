@@ -1,0 +1,22 @@
+[
+	{
+		"name": "JavaScript",
+		"image": "/images/languages-tech/javascript-icon.svg"
+	},
+	{
+		"name": "TypeSript",
+		"image": "/images/languages-tech/typescript-icon.svg"
+	},
+	{
+		"name": "Python",
+		"image": "/images/languages-tech/python-icon.svg"
+	},
+	{
+		"name": "HTML",
+		"image": "/images/languages-tech/html-icon.svg"
+	},
+	{
+		"name": "CSS",
+		"image": "/images/languages-tech/css-icon.svg"
+	}
+]

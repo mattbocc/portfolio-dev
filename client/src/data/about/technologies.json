@@ -1,0 +1,31 @@
+[
+	{
+		"name": "React",
+		"image": "/images/languages-tech/react-icon.svg"
+	},
+	{
+		"name": "NestJS",
+		"image": "/images/languages-tech/nestjs-icon.svg"
+	},
+	{
+		"name": "Express.js",
+		"image": "/images/languages-tech/express-icon.svg"
+	},
+	{
+		"name": "Node.js",
+		"image": "/images/languages-tech/nodejs-icon.svg"
+	},
+	{
+		"name": "Taliwind CSS",
+		"image": "/images/languages-tech/tailwind-icon.svg"
+	},
+	{
+		"name": "PrimeReact",
+		"image": "/images/languages-tech/primereact-icon.svg"
+	},
+	{
+		"name": "FastAPI",
+		"image": "/images/languages-tech/fastapi-icon.svg"
+	}
+
+]

@@ -1,0 +1,14 @@
+[
+	{
+		"name": "MySQL",
+		"image": "/images/languages-tech/mysql-icon.svg"
+	},
+	{
+		"name": "MongoDB",
+		"image": "/images/languages-tech/mongodb-icon.svg"
+	},
+	{
+		"name": "Firestore",
+		"image": "/images/languages-tech/firestore-icon.svg"
+	}
+]

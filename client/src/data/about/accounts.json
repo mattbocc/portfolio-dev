@@ -1,0 +1,10 @@
+[
+	{
+		"name": "Keycloak",
+		"image": "/images/languages-tech/keycloak-icon.svg"
+	},
+	{
+		"name": "Firebase",
+		"image": "/images/languages-tech/firebase-icon.svg"
+	}
+]

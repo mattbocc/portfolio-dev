@@ -13,19 +13,10 @@ export default {
         },
         extend: {
             colors: {
-                gray: {
-                    50: '#fafafa',
-                    200: '#e9e9e9',
-                    400: '#b5b5b5',
-                    600: '#717171',
-                    700: '#727272',
-                    900: '#212121',
-                    1000: '#D9D9D9'
-                },
                 open_border: '#B6B6B6'
             },
-            fontFamily: { inter: 'Inter' },
             fontSize: {
+                heading4Xl: ['40px', '48px'],
                 heading3Xl: ['32px', '40px'],
                 heading2Xl: ['28px', '32px'],
                 headingXl: ['24px', '28px'],
@@ -33,8 +24,9 @@ export default {
                 headingMd: ['16px', '20px'],
                 headingSm: ['14px', '16px'],
                 headingXs: ['12px', '16px'],
+                bodyLg: ['16px', '24px'],
                 bodyMd: ['14px', '20px'],
-                bodySm: ['12px', '16px'],
+                bodySm: ['12px', '18px'],
                 bodyXs: ['11px', '14px']
             },
             boxShadow: {

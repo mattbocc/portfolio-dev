@@ -1,0 +1,18 @@
+[
+	{
+		"name": "Google Cloud Platform (GCP)",
+		"image": "/images/languages-tech/gcp-icon.svg"
+	},
+	{
+		"name": "Microsoft Azure",
+		"image": "/images/languages-tech/azure-icon.svg"
+	},
+	{
+		"name": "Docker",
+		"image": "/images/languages-tech/docker-icon.svg"
+	},
+	{
+		"name": "Kubernetes",
+		"image": "/images/languages-tech/kubernetes-icon.svg"
+	}
+]
