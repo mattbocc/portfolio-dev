@@ -3,9 +3,12 @@
 		"name": "Science Portal"
 	},
 	{
-		"name": "PMATCH (Prioritizer)"
+		"name": "PMATCH"
 	},
 	{
 		"name": "Aircheck"
+	},
+	{
+		"name": "Team Website"
 	}
 ]

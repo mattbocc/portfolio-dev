@@ -7,7 +7,7 @@ export const Navbar: React.FC = () => {
         <div className="fixed top-0 left-0 flex flex-col justify-between h-screen w-[250px] py-10 px-8 shadow border-r-1 bg-white">
             <div className="flex flex-col gap-2">
                 <div id="General" className="flex flex-col gap-2">
-                    <h4 className="text-headingMd font-bold text-gray-700">General</h4>
+                    <h4 className="text-headingMd font-semibold text-gray-800">General</h4>
                     <div className="flex flex-col">
                         <span className="text-bodySm text-gray-500 transition ease-in duration-400 hover:font-semibold hover:text-yellow-400 hover:scale-110 cursor-pointer py-0.5">
                             About
@@ -18,7 +18,7 @@ export const Navbar: React.FC = () => {
                     </div>
                 </div>
                 <div id="Projects" className="flex flex-col gap-2">
-                    <h4 className="text-headingMd font-bold text-gray-700">Projects</h4>
+                    <h4 className="text-headingMd font-semibold text-gray-800">Projects</h4>
                     <div className="flex flex-col">
                         {projects.map(item => (
                             <span className="text-bodySm text-gray-500 transition ease-in duration-400 hover:font-semibold hover:text-yellow-400 hover:scale-110 cursor-pointer py-0.5">
@@ -28,7 +28,7 @@ export const Navbar: React.FC = () => {
                     </div>
                 </div>
                 <div id="Experience" className="flex flex-col gap-2">
-                    <h4 className="text-headingMd font-bold text-gray-700">Experience</h4>
+                    <h4 className="text-headingMd font-semibold text-gray-800">Experience</h4>
                     <div className="flex flex-col">
                         {experience.map(item => (
                             <span className="text-bodySm text-gray-500 transition ease-in duration-400 hover:font-semibold hover:text-yellow-400 hover:scale-110 cursor-pointer py-0.5">
