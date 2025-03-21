@@ -1,45 +1,15 @@
 import React from 'react';
-
-interface Experience {
-    name: string;
-    location: string;
-    date: string;
-    description: string;
-}
+import experiences from '../../data/projects-experience/experience.json';
 
 const Experience: React.FC = () => {
-    const experiences: Experience[] = [
-        {
-            name: 'University Health Network',
-            location: 'Toronto, Ontario',
-            date: 'June 2023 - Present',
-            description:
-                'Led the full-stack development and deployment of three web applications to tackle challenges in the oncology sector. Worked with cross-functional teams and five major pharmaceutical companies to develop new oncology applications and enhance existing ones. Recruited and managed developer interns, overseeing project execution and task development.'
-        },
-        {
-            name: 'Lymphoma Canada',
-            location: 'Mississauga, Ontario',
-            date: 'Oct 2021 - Mar 2022',
-            description:
-                'Developed and optimized Python scripts to query databases, enforce data integrity, and streamline audit preparation. Engineered a reliable automation pipeline to seamlessly transfer data from QuickBooks to the database. Designed and implemented advanced end-of-term data analysis, providing key insights into database improvements for the CEO and bookkeeper.'
-        },
-        {
-            name: "Marco's Way",
-            location: 'Remote',
-            date: 'Jan 2021 - Present',
-            description:
-                "Manage and enhance the core functionality of the Marco's Way charity website, ensuring optimal performance and user experience. Work closely with organizers to develop and implement new event and project features, seamlessly integrating them into the fundraising platform."
-        }
-    ];
-
     return (
-        <section className="py-16 bg-[#FAFAFA]">
+        <div id="Projects" className="flex flex-col items-center w-full mb-16">
             <div className="w-full mx-auto">
                 <h2 className="text-heading3Xl font-bold text-gray-900 mb-12 text-center">Professional Experience</h2>
-
                 <div className="flex flex-col gap-2">
                     {experiences.map((job, index) => (
                         <div
+                            id={job.nav}
                             key={index}
                             className="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 overflow-hidden"
                         >
@@ -77,7 +47,7 @@ const Experience: React.FC = () => {
                     ))}
                 </div>
             </div>
-        </section>
+        </div>
     );
 };
 

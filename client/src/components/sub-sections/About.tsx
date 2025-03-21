@@ -17,7 +17,7 @@ const About: React.FC = () => {
                     <span className="font-semibold text-gray-800"> full-stack </span> web applications and
                     <span className="font-semibold text-gray-800"> API </span>'s, to tackle various challenges in
                     oncology. I'm passionate about <span className="font-semibold text-gray-800"> full-stack </span>
-                    development as it lets me shape a project from inception to completion.
+                    development as it allows my expertise and creativity to shape all components of a project.
                 </p>
             </div>
             <hr className="w-3/4 my-16" />

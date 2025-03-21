@@ -1,6 +1,7 @@
 import React from 'react';
 import projects from '../data/navbar/projects.json';
 import experience from '../data/navbar/experience.json';
+import { Link } from 'react-scroll';
 
 export const Navbar: React.FC = () => {
     return (
@@ -20,20 +21,32 @@ export const Navbar: React.FC = () => {
                 <div id="Projects" className="flex flex-col gap-2">
                     <h4 className="text-headingMd font-semibold text-gray-800">Projects</h4>
                     <div className="flex flex-col">
-                        {projects.map(item => (
-                            <span className="text-bodySm text-gray-500 transition ease-in duration-400 hover:font-semibold hover:text-yellow-400 hover:scale-110 cursor-pointer py-0.5">
-                                {item.name}
-                            </span>
+                        {projects.map(proj => (
+                            <Link
+                                to={proj.nav}
+                                smooth={true}
+                                offset={-200}
+                                duration={500}
+                                className="text-bodySm text-gray-500 transition ease-in duration-400 hover:font-semibold hover:text-yellow-400 hover:scale-110 cursor-pointer py-0.5"
+                            >
+                                {proj.name}
+                            </Link>
                         ))}
                     </div>
                 </div>
                 <div id="Experience" className="flex flex-col gap-2">
                     <h4 className="text-headingMd font-semibold text-gray-800">Experience</h4>
                     <div className="flex flex-col">
-                        {experience.map(item => (
-                            <span className="text-bodySm text-gray-500 transition ease-in duration-400 hover:font-semibold hover:text-yellow-400 hover:scale-110 cursor-pointer py-0.5">
-                                {item.name}
-                            </span>
+                        {experience.map(exp => (
+                            <Link
+                                to={exp.nav}
+                                smooth={true}
+                                offset={-200}
+                                duration={500}
+                                className="text-bodySm text-gray-500 transition ease-in duration-400 hover:font-semibold hover:text-yellow-400 hover:scale-110 cursor-pointer py-0.5"
+                            >
+                                {exp.name}
+                            </Link>
                         ))}
                     </div>
                 </div>

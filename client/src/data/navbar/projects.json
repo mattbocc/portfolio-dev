@@ -1,14 +1,23 @@
 [
 	{
-		"name": "Science Portal"
+		"name": "Science Portal",
+		"nav": "SP"
 	},
 	{
-		"name": "PMATCH"
+		"name": "PMATCH",
+		"nav": "PMATCH"
 	},
 	{
-		"name": "Aircheck"
+		"name": "CoBE",
+		"nav": "CoBE"
 	},
 	{
-		"name": "Team Website"
+		"name": "Team Website",
+		"nav": "lab"
+	},
+	{
+		"name": "Aircheck",
+		"nav": "Aircheck"
 	}
+
 ]

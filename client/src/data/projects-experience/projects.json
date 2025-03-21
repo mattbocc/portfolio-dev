@@ -3,6 +3,7 @@
 		"name": "Science Portal",
 		"tag": "Fullstack",
 		"link": "https://pmscience.ca/",
+		"nav": "SP",
 		"image": "/images/projects/sp-icon.svg",
 		"achievements": [
 			"Developed and deployed an institution-wide publication portal to centralize and simplify access to research outputs",
@@ -45,9 +46,10 @@
 		]
 	},
 	{
-		"name": "PMATCH (Prioritizer API)",
+		"name": "PMATCH (Prioritizer)",
 		"tag": "API",
 		"link": "https://pmatch.ca/",
+		"nav": "PMATCH",
 		"image": "/images/projects/pmatch-icon.svg",
 		"achievements": [
 			"Led the design and development of a clinical trial prioritization API to help clinicians make efficient and confident treatment recommendations for their patients",
@@ -68,6 +70,7 @@
 		"name": "CoBE",
 		"tag": "Fullstack",
 		"link": "https://pmcobe.ca/",
+		"nav": "CoBE",
 		"image": "/images/projects/cobe-icon.svg",
 		"achievements": [
 			"Piloted a full overhaul of the original application to incorporate new functionalities, a refreshed UI, and robust NestJS API to address usability issues and functionality problems",
@@ -109,9 +112,51 @@
 		]
 	},
 	{
+		"name": "Team Website",
+		"tag": "Fullstack",
+		"link": "https://bhklab.ca",
+		"nav": "lab",
+		"image": "/images/projects/bhk-icon-1.svg",
+		"achievements": [
+			"Led the full stack design, development, and deployment of the Aircheck web application to share analysis ready chemical screening data for ML/AI workflows to aid in drug discovery",
+			"Collaborated with partners and users from Pfizer, Bristol Myers Squibb (BMS), X-chem, Hitgen, Structural Genomics Consortium (SGC), and University of North Carolina (UNC) to work on refining core components of the web application and building new ones based on user stories"
+		],
+		"technologies": [
+			{
+				"name": "React",
+				"image": "/images/languages-tech/react-icon.svg"
+			},
+			{
+				"name": "Express.Js",
+				"image": "/images/languages-tech/express-icon.svg"
+			},
+			{
+				"name": "Node.js",
+				"image": "/images/languages-tech/nodejs-icon.svg"
+			},
+			{
+				"name": "Taliwind CSS",
+				"image": "/images/languages-tech/tailwind-icon.svg"
+			},
+			{
+				"name": "PrimeReact",
+				"image": "/images/languages-tech/primereact-icon.svg"
+			},
+			{
+				"name": "Javascript",
+				"image": "/images/languages-tech/javascript-icon.svg"
+			},
+			{
+				"name": "MongoDB",
+				"image": "/images/languages-tech/mongodb-icon.svg"
+			}
+		]
+	},
+	{
 		"name": "Aircheck",
 		"tag": "Fullstack",
 		"link": "https://aircheck.ai/",
+		"nav": "Aircheck",
 		"image": "/images/projects/aircheck-icon.svg",
 		"achievements": [
 			"Led the full stack design, development, and deployment of the Aircheck web application to share analysis ready chemical screening data for ML/AI workflows to aid in drug discovery",
@@ -152,4 +197,5 @@
 			}
 		]
 	}
+	
 ]

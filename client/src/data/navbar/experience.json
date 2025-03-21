@@ -1,8 +1,14 @@
 [
 	{
-		"name": "University Health Network"
+		"name": "University Health Network",
+		"nav": "uhn"
 	},
 	{
-		"name": "Lymphoma Canada"
+		"name": "Lymphoma Canada",
+		"nav": "lymph"
+	},
+	{
+		"name": "Marco's Way",
+		"nav": "way"
 	}
 ]

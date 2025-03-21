@@ -1,5 +1,5 @@
 import React from 'react';
-import projects from '../../data/projects.json';
+import projects from '../../data/projects-experience/projects.json';
 
 interface Project {
     name: string;
@@ -13,12 +13,13 @@ interface Project {
 
 const Projects: React.FC = () => {
     return (
-        <div id="Projects" className="flex flex-col items-center py-16 bg-gray-50 w-full">
+        <div id="Projects" className="flex flex-col items-center w-full">
             <div className="flex flex-col w-full">
                 <h2 className="text-heading3Xl font-bold mb-8 text-center">Projects</h2>
                 <div className="flex flex-col justify-center items-center gap-8 w-full">
                     {projects.map(project => (
                         <div
+                            id={project.nav}
                             className="bg-white rounded-xl drop-shadow-sm overflow-hidden transition-shadow duration-300 w-full"
                             key={project.name}
                         >
