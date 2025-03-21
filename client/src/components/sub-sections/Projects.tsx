@@ -1,32 +1,76 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
+import projects from '../../data/projects.json';
+
+interface Project {
+    name: string;
+    achievements: string[];
+    image: string;
+    technologies: {
+        name: string;
+        image: string;
+    }[];
+}
 
 const Projects: React.FC = () => {
     return (
-        <div id="Projects" className="flex flex-col items-center pt-10">
-            <div className="w-full">
-                <h2 className="text-heading2Xl font-bold mb-16 w-fu">Projects</h2>
-            </div>
+        <div id="Projects" className="flex flex-col items-center py-16 bg-gray-50 w-full">
             <div className="flex flex-col w-full">
-                <div className="flex flex-col w-full bg-white border-1 shadow-sm rounded-lg">
-                    <div className="flex flex-row">
-                        <img
-                            src="/images/projects/sp-icon.svg"
-                            alt="science portal"
-                            className="border-r-1 border-b-1 p-2 rounded-br-lg w-24"
-                        />
-                        <div className="flex flex-col gap-3 px-4 py-4">
-                            <h2 className="text-headingXl font-semibold">Science Portal</h2>
-                            <div className="flex flex-col">
-                                <p className="text-bodyMd">
-                                    Developed and deployed an insitution wide publication portal to centralize/simplify
-                                    access to research outputs. Developed a scalable web application and data mining
-                                    solutions designed for deployment across multiple institutions. The Science Portal
-                                    in it's infancy has already garnered attention from other insitutions where we will
-                                    soon be deploying their personalize instances.
-                                </p>
+                <h2 className="text-heading3Xl font-bold mb-8 text-center">Projects</h2>
+                <div className="flex flex-col justify-center items-center gap-8 w-full">
+                    {projects.map(project => (
+                        <div
+                            className="bg-white rounded-xl drop-shadow-sm overflow-hidden transition-shadow duration-300 w-full"
+                            key={project.name}
+                        >
+                            <div className="flex flex-row md:flex-col ">
+                                <div className="w-1/4 flex items-center justify-center p-3 border-r-1 border-gray-100 bg-gray-100">
+                                    <img src={project.image} alt={project.name} className="w-24 h-24" />
+                                </div>
+
+                                <div className="flex flex-col gap-2 p-4 w-full">
+                                    <div className="flex flex-row justify-between px-2">
+                                        <div className="flex flex-row gap-2">
+                                            <h3 className="text-headingXl font-bold">{project.name}</h3>
+                                            <span className="flex flex-row justify-center items-center text-bodyMd text-black rounded-full px-3 bg-yellow-400 bg-opacity-20">
+                                                {project.tag}
+                                            </span>
+                                        </div>
+                                        <a
+                                            href={project.link}
+                                            target="_blank"
+                                            className="flex flex-col justify-center items-center text-bodySm font-semibold transition ease-in duration-400 hover:scale-110"
+                                        >
+                                            <img src="/images/assets/export-1.svg" alt="export" className="w-5" />
+                                        </a>
+                                    </div>
+
+                                    <div className="flex flex-col">
+                                        <ul className="list-disc pl-6">
+                                            {project.achievements.map((ach, ind) => (
+                                                <li
+                                                    key={ind}
+                                                    className="leading-relaxed text-bodyMd text-gray-700 hover:cursor-default"
+                                                >
+                                                    {ach}
+                                                </li>
+                                            ))}
+                                        </ul>
+                                    </div>
+                                    <div className="flex flex-row flex-wrap items-center gap-2">
+                                        {project.technologies.map(tech => (
+                                            <div
+                                                className="flex flex-row justify-center items-center gap-1 bg-white drop-shadow rounded-lg py-1 px-3"
+                                                key={tech.name}
+                                            >
+                                                <img src={tech.image} alt={tech.name} className="w-4" />
+                                                <h4 className="text-bodyMd font-semibold">{tech.name}</h4>
+                                            </div>
+                                        ))}
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    ))}
                 </div>
             </div>
         </div>

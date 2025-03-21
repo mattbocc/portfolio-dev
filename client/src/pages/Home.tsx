@@ -10,6 +10,7 @@ const Home: React.FC = () => {
                 <About />
                 <hr className="w-3/4 my-16" />
                 <Projects />
+                <hr className="w-3/4 my-16" />
                 <Experience />
             </div>
         </div>
