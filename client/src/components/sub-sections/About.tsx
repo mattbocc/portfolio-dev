@@ -7,8 +7,8 @@ import accounts from '../../data/about/accounts.json';
 
 const About: React.FC = () => {
     return (
-        <div id="About" className="flex flex-col items-center pt-28">
-            <div id="Intro" className="flex flex-col">
+        <div id="About" className="flex flex-col items-center mt-20">
+            <div id="Intro" className="flex flex-col gap-6">
                 <p className="text-gray-600 text-heading3Xl">
                     Hello, my name is
                     <span className="text-yellow-400 font-semibold "> Matthew Boccalon</span>. I'm a

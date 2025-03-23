@@ -16,11 +16,11 @@ const Projects: React.FC = () => {
         <div id="Projects" className="flex flex-col items-center w-full">
             <div className="flex flex-col w-full">
                 <h2 className="text-heading3Xl font-bold mb-8 text-center">Projects</h2>
-                <div className="flex flex-col justify-center items-center gap-8 w-full">
+                <div className="flex flex-col justify-center items-center gap-6 w-full">
                     {projects.map(project => (
                         <div
                             id={project.nav}
-                            className="bg-white rounded-xl drop-shadow-sm overflow-hidden transition-shadow duration-300 w-full"
+                            className="bg-white rounded-xl drop-shadow-sm hover:drop-shadow-md transition-shadow duration-300 overflow-hidden w-full"
                             key={project.name}
                         >
                             <div className="flex flex-row md:flex-col ">

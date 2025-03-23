@@ -10,12 +10,20 @@ export const Navbar: React.FC = () => {
                 <div id="General" className="flex flex-col gap-2">
                     <h4 className="text-headingMd font-semibold text-gray-800">General</h4>
                     <div className="flex flex-col">
-                        <span className="text-bodySm text-gray-500 transition ease-in duration-400 hover:font-semibold hover:text-yellow-400 hover:scale-110 cursor-pointer py-0.5">
+                        <Link
+                            to="About"
+                            smooth={true}
+                            spy={true}
+                            offset={-200}
+                            duration={500}
+                            activeClass="text-yellow-400 font-semibold scale-110"
+                            className="text-bodySm text-gray-500 transition ease-in duration-400 hover:font-semibold hover:text-yellow-400 hover:scale-110 cursor-pointer py-0.5"
+                        >
                             About
-                        </span>
-                        <span className="text-bodySm text-gray-500 transition ease-in duration-400 hover:font-semibold hover:text-yellow-400 hover:scale-110 cursor-pointer py-0.5">
+                        </Link>
+                        {/* <span className="text-bodySm text-gray-500 transition ease-in duration-400 hover:font-semibold hover:text-yellow-400 hover:scale-110 cursor-pointer py-0.5">
                             Contact
-                        </span>
+                        </span> */}
                     </div>
                 </div>
                 <div id="Projects" className="flex flex-col gap-2">
@@ -23,10 +31,13 @@ export const Navbar: React.FC = () => {
                     <div className="flex flex-col">
                         {projects.map(proj => (
                             <Link
+                                key={proj.nav}
                                 to={proj.nav}
                                 smooth={true}
+                                spy={true}
                                 offset={-200}
                                 duration={500}
+                                activeClass="text-yellow-400 font-semibold scale-110"
                                 className="text-bodySm text-gray-500 transition ease-in duration-400 hover:font-semibold hover:text-yellow-400 hover:scale-110 cursor-pointer py-0.5"
                             >
                                 {proj.name}
@@ -39,10 +50,13 @@ export const Navbar: React.FC = () => {
                     <div className="flex flex-col">
                         {experience.map(exp => (
                             <Link
+                                key={exp.nav}
                                 to={exp.nav}
                                 smooth={true}
+                                spy={true}
                                 offset={-200}
                                 duration={500}
+                                activeClass="text-yellow-400 font-semibold scale-110"
                                 className="text-bodySm text-gray-500 transition ease-in duration-400 hover:font-semibold hover:text-yellow-400 hover:scale-110 cursor-pointer py-0.5"
                             >
                                 {exp.name}
@@ -64,7 +78,10 @@ export const Navbar: React.FC = () => {
                     target="#blank"
                     className="transition ease-in duration-400 hover:scale-110"
                 >
-                    <img src="/images/contact/linkedin-icon.svg" alt="Linkedin" className="w-7" />
+                    <img src="/images/contact/linkedin-icon.svg" alt="LinkedIn" className="w-7" />
+                </a>
+                <a href="mailto:matthew.boccalon@live.ca" className="transition ease-in duration-400 hover:scale-110">
+                    <img src="/images/contact/email-icon.svg" alt="Email" className="w-7" />
                 </a>
             </div>
         </div>

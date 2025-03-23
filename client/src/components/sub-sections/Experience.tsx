@@ -3,15 +3,15 @@ import experiences from '../../data/projects-experience/experience.json';
 
 const Experience: React.FC = () => {
     return (
-        <div id="Projects" className="flex flex-col items-center w-full mb-16">
+        <div id="Projects" className="flex flex-col items-center w-full mb-32">
             <div className="w-full mx-auto">
                 <h2 className="text-heading3Xl font-bold text-gray-900 mb-12 text-center">Professional Experience</h2>
-                <div className="flex flex-col gap-2">
+                <div className="flex flex-col gap-6">
                     {experiences.map((job, index) => (
                         <div
                             id={job.nav}
                             key={index}
-                            className="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 overflow-hidden"
+                            className="bg-white rounded-lg drop-shadow-sm hover:drop-shadow-md transition-shadow duration-300 overflow-hidden"
                         >
                             <div className="border-b border-gray-100 p-6">
                                 <div className="flex flex-row sm:flex-col justify-between gap-2">

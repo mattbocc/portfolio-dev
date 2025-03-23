@@ -6,7 +6,7 @@ import Projects from '../components/sub-sections/Projects';
 const Home: React.FC = () => {
     return (
         <div className="h-screen pl-[250px] w-full">
-            <div className="flex flex-col items-center px-72 lg:px-32">
+            <div className="flex flex-col items-center px-72 xl:px-32 lg:px-10">
                 <About />
                 <hr className="w-3/4 my-16" />
                 <Projects />
