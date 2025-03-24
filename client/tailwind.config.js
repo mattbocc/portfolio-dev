@@ -8,10 +8,9 @@ export default {
             lg: { max: '1500px' },
             mdlg: { max: '1300px' },
             md: { max: '1050px' },
-            smd: { max: '700px' },
+            smd: { max: '750px' },
             sm: { max: '550px' },
-            xs: { max: '450px' },
-            burger: { min: '550px' }
+            xs: { max: '450px' }
         },
         extend: {
             colors: {

@@ -16,6 +16,35 @@ body {
     min-height: 100vh;
 }
 
+@keyframes shimmer {
+    0% {
+        background-position: -200% 0;
+    }
+    100% {
+        background-position: 200% 0;
+    }
+}
+
+.shimmer {
+    width: 20px; /* adjust as needed */
+    height: 20px;
+    background-color: #ccc; /* fallback base color */
+    background-image: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.6), transparent);
+    background-size: 200% 100%;
+    background-repeat: no-repeat;
+    animation: shimmer 1.5s infinite linear;
+
+    mask-image: url('/images/assets/export-1.svg');
+    mask-repeat: no-repeat;
+    mask-position: center;
+    mask-size: contain;
+
+    -webkit-mask-image: url('/images/assets/export-1.svg');
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    -webkit-mask-size: contain;
+}
+
 /* Primereact Stylings */
 
 * {

@@ -8,12 +8,12 @@
 		"nav": "PMATCH"
 	},
 	{
-		"name": "CoBE",
-		"nav": "CoBE"
-	},
-	{
 		"name": "Team Website",
 		"nav": "lab"
+	},
+	{
+		"name": "CoBE",
+		"nav": "CoBE"
 	},
 	{
 		"name": "Aircheck",
