@@ -12,6 +12,10 @@
 		"image": "/images/languages-tech/python-icon.svg"
 	},
 	{
+		"name": "SQL",
+		"image": "/images/languages-tech/sql-icon.svg"
+	},
+	{
 		"name": "HTML",
 		"image": "/images/languages-tech/html-icon.svg"
 	},

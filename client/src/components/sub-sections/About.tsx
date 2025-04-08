@@ -37,7 +37,7 @@ const About: React.FC = () => {
                     </div>
                 </div>
                 <div id="Technologies" className="flex flex-col gap-2 pt-4 w-full">
-                    <h3 className="text-headingSm text-gray-600 font-bold">Development Technologies</h3>
+                    <h3 className="text-headingSm text-gray-600 font-bold">Libraries/Frameworks</h3>
                     <div className="flex flex-row flex-wrap items-center gap-2">
                         {technologies.map(item => (
                             <div
