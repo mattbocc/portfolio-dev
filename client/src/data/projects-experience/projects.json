@@ -1,201 +1,212 @@
 [
-	{
-		"name": "Science Portal",
-		"tag": "Fullstack",
-		"link": "https://pmscience.ca/",
-		"nav": "SP",
-		"image": "/images/projects/sp-icon.svg",
-		"achievements": [
-			"Developed and deployed an institution-wide publication portal to centralize and simplify access to research outputs",
-			"Built a scalable fullstack web application with data mining solutions designed for multi-institutional deployment",
-			"Garnered attention from multiple institutions interested in personalized instances"
-		],
-		"technologies": [
-			{
-				"name": "React",
-				"image": "/images/languages-tech/react-icon.svg"
-			},
-			{
-				"name": "TypeSript",
-				"image": "/images/languages-tech/typescript-icon.svg"
-			},
-			{
-				"name": "NestJS",
-				"image": "/images/languages-tech/nestjs-icon.svg"
-			},
-			{
-				"name": "Node.js",
-				"image": "/images/languages-tech/nodejs-icon.svg"
-			},
-			{
-				"name": "Taliwind CSS",
-				"image": "/images/languages-tech/tailwind-icon.svg"
-			},
-			{
-				"name": "PrimeReact",
-				"image": "/images/languages-tech/primereact-icon.svg"
-			},
-			{
-				"name": "MongoDB",
-				"image": "/images/languages-tech/mongodb-icon.svg"
-			},
-			{
-				"name": "Keycloak",
-				"image": "/images/languages-tech/keycloak-icon.svg"
-			}
-		]
-	},
-	{
-		"name": "PMATCH (Prioritizer)",
-		"tag": "API",
-		"nav": "PMATCH",
-		"image": "/images/projects/pmatch-icon.svg",
-		"achievements": [
-			"Led the design and development of a clinical trial prioritization API to help clinicians make efficient and confident treatment recommendations for their patients",
-			"Utilized patient molecular profiles to conduct a wide range of analyses to pair and prioritize the best treatments available"
-		],
-		"technologies": [
-			{
-				"name": "Python",
-				"image": "/images/languages-tech/python-icon.svg"
-			},
-			{
-				"name": "FastAPI",
-				"image": "/images/languages-tech/fastapi-icon.svg"
-			}	
-		]
-	},
-	{
-		"name": "Team Website",
-		"tag": "Fullstack",
-		"link": "https://bhklab.ca",
-		"nav": "lab",
-		"image": "/images/projects/bhk-icon-1.svg",
-		"achievements": [
-			"Developed a full-stack web application to highlight our team's important publications, presentations, softwares, active members, and alumni",
-			"Built an automated web scraping script in Python for tracking current positions of alumni to keep profiles updated",
-			"Created an automated system using Google App Scripts to keep active team members updated on website as members join/leave"
-		],
-		"technologies": [
-			{
-				"name": "React",
-				"image": "/images/languages-tech/react-icon.svg"
-			},
-			{
-				"name": "Javascript",
-				"image": "/images/languages-tech/javascript-icon.svg"
-			},
-			{
-				"name": "Express.js",
-				"image": "/images/languages-tech/express-icon.svg"
-			},
-			{
-				"name": "Node.js",
-				"image": "/images/languages-tech/nodejs-icon.svg"
-			},
-			{
-				"name": "Taliwind CSS",
-				"image": "/images/languages-tech/tailwind-icon.svg"
-			},
-			{
-				"name": "PrimeReact",
-				"image": "/images/languages-tech/primereact-icon.svg"
-			},
-			{
-				"name": "MongoDB",
-				"image": "/images/languages-tech/mongodb-icon.svg"
-			}
-		]
-	},
-	{
-		"name": "CoBE",
-		"tag": "Fullstack",
-		"link": "https://pmcobe.ca/",
-		"nav": "CoBE",
-		"image": "/images/projects/cobe-icon.svg",
-		"achievements": [
-			"Worked in collboration with CDI to deliver a full overhaul of the original application to incorporate new functionalities, a refreshed UI, and robust NestJS API to address usability issues and functionality problems",
-			"Coordinated the collaboration between several different teams to maintain active and cohesive development"
-		],
-		"technologies": [
-			{
-				"name": "React",
-				"image": "/images/languages-tech/react-icon.svg"
-			},
-			{
-				"name": "TypeSript",
-				"image": "/images/languages-tech/typescript-icon.svg"
-			},
-			{
-				"name": "NestJS",
-				"image": "/images/languages-tech/nestjs-icon.svg"
-			},
-			{
-				"name": "Node.js",
-				"image": "/images/languages-tech/nodejs-icon.svg"
-			},
-			{
-				"name": "Taliwind CSS",
-				"image": "/images/languages-tech/tailwind-icon.svg"
-			},
-			{
-				"name": "PrimeReact",
-				"image": "/images/languages-tech/primereact-icon.svg"
-			},
-			{
-				"name": "MongoDB",
-				"image": "/images/languages-tech/mongodb-icon.svg"
-			},
-			{
-				"name": "Keycloak",
-				"image": "/images/languages-tech/keycloak-icon.svg"
-			}
-		]
-	},
-	{
-		"name": "Aircheck",
-		"tag": "Fullstack",
-		"link": "https://aircheck.ai/",
-		"nav": "Aircheck",
-		"image": "/images/projects/aircheck-icon.svg",
-		"achievements": [
-			"Led the full stack design, development, and deployment of the Aircheck web application to share analysis ready chemical screening data for ML/AI workflows to aid in drug discovery",
-			"Collaborated with partners and users from Pfizer, Bristol Myers Squibb (BMS), X-chem, Hitgen, Structural Genomics Consortium (SGC), and University of North Carolina (UNC) to work on refining core components of the web application and building new ones based on user stories"
-		],
-		"technologies": [
-			{
-				"name": "React",
-				"image": "/images/languages-tech/react-icon.svg"
-			},
-			{
-				"name": "Javascript",
-				"image": "/images/languages-tech/javascript-icon.svg"
-			},
-			{
-				"name": "Express.js",
-				"image": "/images/languages-tech/express-icon.svg"
-			},
-			{
-				"name": "Node.js",
-				"image": "/images/languages-tech/nodejs-icon.svg"
-			},
-			{
-				"name": "Taliwind CSS",
-				"image": "/images/languages-tech/tailwind-icon.svg"
-			},
-			{
-				"name": "PrimeReact",
-				"image": "/images/languages-tech/primereact-icon.svg"
-			},
-			{
-				"name": "Firestore",
-				"image": "/images/languages-tech/firestore-icon.svg"
-			},
-			{
-				"name": "Firebase",
-				"image": "/images/languages-tech/firebase-icon.svg"
-			}
-		]
-	}
-	
+    {
+        "name": "Science Portal",
+        "tag": "Fullstack",
+        "link": "https://pmscience.ca/",
+        "nav": "SP",
+        "image": "/images/projects/sp-icon.svg",
+        "achievements": [
+            "Built a full stack web application to centralize and simplify access to research outputs within Princess Margaret using a React + Typescript front-end, NestJS + Typescript REST API, MongoDB, Keycloak's OAuth2 for secure institution logins",
+            "Built a secondary Python REST API with FastAPI for managing on demand data scraping and an automated mailing system",
+            "Decreased the time it takes for researchers to get access to publication outputs by 90% through the development of an advanced data mining algorithm to seek out research outputs for publications at Princess Margaret"
+        ],
+        "technologies": [
+            {
+                "name": "React",
+                "image": "/images/languages-tech/react-icon.svg"
+            },
+            {
+                "name": "TypeSript",
+                "image": "/images/languages-tech/typescript-icon.svg"
+            },
+            {
+                "name": "NestJS",
+                "image": "/images/languages-tech/nestjs-icon.svg"
+            },
+            {
+                "name": "Python",
+                "image": "/images/languages-tech/python-icon.svg"
+            },
+            {
+                "name": "Node.js",
+                "image": "/images/languages-tech/nodejs-icon.svg"
+            },
+            {
+                "name": "FastAPI",
+                "image": "/images/languages-tech/fastapi-icon.svg"
+            },
+            {
+                "name": "Taliwind CSS",
+                "image": "/images/languages-tech/tailwind-icon.svg"
+            },
+            {
+                "name": "PrimeReact",
+                "image": "/images/languages-tech/primereact-icon.svg"
+            },
+            {
+                "name": "MongoDB",
+                "image": "/images/languages-tech/mongodb-icon.svg"
+            },
+            {
+                "name": "Keycloak",
+                "image": "/images/languages-tech/keycloak-icon.svg"
+            }
+        ]
+    },
+    {
+        "name": "PMATCH (Prioritizer)",
+        "tag": "API",
+        "nav": "PMATCH",
+        "image": "/images/projects/pmatch-icon.svg",
+        "achievements": [
+            "Built a real-time Python API utilizing the FastAPI framework, Keycloak service accounts for secure data access, and web sockets for instantaneous cross component communication with the goal of helping clinicians efficiently identify the most suitable clinical trials for their patients",
+            "Decreased the time it takes clinicians to parse clinical trials their patient is eligible for by 20% through developing an advanced ranking algorithm that utilizes patient molecular profiles"
+        ],
+        "technologies": [
+            {
+                "name": "Python",
+                "image": "/images/languages-tech/python-icon.svg"
+            },
+            {
+                "name": "FastAPI",
+                "image": "/images/languages-tech/fastapi-icon.svg"
+            },
+            {
+                "name": "Keycloak",
+                "image": "/images/languages-tech/keycloak-icon.svg"
+            }
+        ]
+    },
+    {
+        "name": "Team Website",
+        "tag": "Fullstack",
+        "link": "https://bhklab.ca",
+        "nav": "lab",
+        "image": "/images/projects/bhk-icon-1.svg",
+        "achievements": [
+            "Developed a full-stack web application to highlight our team's important publications, presentations, softwares, active members, and alumni",
+            "Built an automated web scraping script in Python for tracking current positions of alumni to keep profiles updated",
+            "Created an automated system using Google App Scripts to keep active team members updated on website as members join/leave"
+        ],
+        "technologies": [
+            {
+                "name": "React",
+                "image": "/images/languages-tech/react-icon.svg"
+            },
+            {
+                "name": "Javascript",
+                "image": "/images/languages-tech/javascript-icon.svg"
+            },
+            {
+                "name": "Express.js",
+                "image": "/images/languages-tech/express-icon.svg"
+            },
+            {
+                "name": "Node.js",
+                "image": "/images/languages-tech/nodejs-icon.svg"
+            },
+            {
+                "name": "Taliwind CSS",
+                "image": "/images/languages-tech/tailwind-icon.svg"
+            },
+            {
+                "name": "PrimeReact",
+                "image": "/images/languages-tech/primereact-icon.svg"
+            },
+            {
+                "name": "MongoDB",
+                "image": "/images/languages-tech/mongodb-icon.svg"
+            }
+        ]
+    },
+    {
+        "name": "CoBE",
+        "tag": "Fullstack",
+        "link": "https://pmcobe.ca/",
+        "nav": "CoBE",
+        "image": "/images/projects/cobe-icon.svg",
+        "achievements": [
+            "Piloted an overhaul of the original application that included a new front-end that introduced Typescript and Tailwind, a REST API upgrade from Express.js + Javascript to NestJS + Typescript, MongoDB, Keycloak's OAuth2 for secure institution logins, SendGrid for platform email interactions",
+            "The revamp drove up usage by 25% and lead to the creation of 5 new pipelines, and dozens of new capsules"
+        ],
+        "technologies": [
+            {
+                "name": "React",
+                "image": "/images/languages-tech/react-icon.svg"
+            },
+            {
+                "name": "TypeSript",
+                "image": "/images/languages-tech/typescript-icon.svg"
+            },
+            {
+                "name": "NestJS",
+                "image": "/images/languages-tech/nestjs-icon.svg"
+            },
+            {
+                "name": "Node.js",
+                "image": "/images/languages-tech/nodejs-icon.svg"
+            },
+            {
+                "name": "Taliwind CSS",
+                "image": "/images/languages-tech/tailwind-icon.svg"
+            },
+            {
+                "name": "PrimeReact",
+                "image": "/images/languages-tech/primereact-icon.svg"
+            },
+            {
+                "name": "MongoDB",
+                "image": "/images/languages-tech/mongodb-icon.svg"
+            },
+            {
+                "name": "Keycloak",
+                "image": "/images/languages-tech/keycloak-icon.svg"
+            }
+        ]
+    },
+    {
+        "name": "Aircheck",
+        "tag": "Fullstack",
+        "link": "https://aircheck.ai/",
+        "nav": "Aircheck",
+        "image": "/images/projects/aircheck-icon.svg",
+        "achievements": [
+            "Led the full stack development and deployment of the Aircheck web application to share analysis ready chemical screening data for ML/AI workflows to aid in drug discovery using a React + Javscript front-end, Express.js + Javascript REST API, Firebase for secure logins, Firestore for the database, and GCP buckets for file storage",
+            "Collaborated with partners and users from Pfizer, Bristol Myers Squibb (BMS), X-chem, Hitgen, Structural Genomics Consortium (SGC), and University of North Carolina (UNC) to work on refining core components of the web application and building new ones based on user stories"
+        ],
+        "technologies": [
+            {
+                "name": "React",
+                "image": "/images/languages-tech/react-icon.svg"
+            },
+            {
+                "name": "Javascript",
+                "image": "/images/languages-tech/javascript-icon.svg"
+            },
+            {
+                "name": "Express.js",
+                "image": "/images/languages-tech/express-icon.svg"
+            },
+            {
+                "name": "Node.js",
+                "image": "/images/languages-tech/nodejs-icon.svg"
+            },
+            {
+                "name": "Taliwind CSS",
+                "image": "/images/languages-tech/tailwind-icon.svg"
+            },
+            {
+                "name": "PrimeReact",
+                "image": "/images/languages-tech/primereact-icon.svg"
+            },
+            {
+                "name": "Firestore",
+                "image": "/images/languages-tech/firestore-icon.svg"
+            },
+            {
+                "name": "Firebase",
+                "image": "/images/languages-tech/firebase-icon.svg"
+            }
+        ]
+    }
 ]
